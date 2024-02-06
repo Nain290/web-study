@@ -36,44 +36,27 @@
         </div>
 
     <script>
-      // 주석은 한꺼번에 드래그한 후 ctrl+/ 하면 된다.
-      let a = "값"
+      //for 문
+      let arr = [1,2,3,4,5,6,7];
+      for(let i=0; i<arr.length; i++){
 
-      let a2 = "은 뭘까요?"
-      let a3 = a + a2;
-      console.log(a3)
+        // if(arr[i] % 2 != 0){
+        //   console.log(arr[i])
+        // }else if(arr[i] == 2){
+        //   console.log("2222")
+        // }else if(arr[i] == 4){
+        //   console.log("4444")
+        // }
 
-      let b = 100
-      let b2 = b+10;
-      let b3 = b+b2;
-      console.log(b3)
-
-      let str = "유나";
-      let str2 = "갑돌";
-      let str3 = `돼지`;
-
-      console.log(`저의 이름은 ${str}입니다.`)
-      console.log(`제 강아지는 ${str2}입니다`)
-      console.log(`그 둘의 공통점은 ${str3}입니다.`)
-
-      // 객체의 배열
-      let arr = ['파란색','초록색','검정색','갈색']
-      console.log(`강아지 눈은 `+arr[3]+`입니다.`)
-      arr.push('황금색')
-      console.log(arr)
-
-      let obj = {
-        "사과" : "apple",
-        "배" : "pear"
+        //and 문
+        if(arr[i] % 2 == 0 && arr[i] == 2){
+          console.log(arr[i])
+        }
+        //or 문
+        if(arr[i] % 2 == 0 || arr[i] %3 == 0){
+          console.log(arr[i])
+        }
       }
-      console.log(obj)
-
-      let dic = [
-        {"머리카락" : "붉음"},
-        {"눈 색" : "노란색"}
-      ]
-      console.log(dic)
-
 
     </script>
     </body>
