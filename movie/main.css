@@ -1,0 +1,28 @@
+body {
+    background-color: #333;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar{
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+}
+
+#jumbotron{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 16px;
+}
+
+#display-btn{
+    background-color: rgb(83, 83, 83);
+}
+
+#card-btn{
+    width: 100%;
+}
+
+#card-title{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
